@@ -50,7 +50,9 @@ export function WikiHomePageComponent() {
           <NavigationMenu className="justify-center">
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuTrigger>Categories</NavigationMenuTrigger>
+                <NavigationMenuTrigger className="text-red-700">
+                  Categories
+                </NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                     {categories.map((category) => (
