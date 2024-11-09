@@ -114,7 +114,7 @@ export function WikiHomePageComponent() {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 mb-4 md:mb-0 dark:text-gray-400">
-              © {new Date().getFullYear()} WikiPedia. All rights reserved.
+              {new Date().getFullYear()} Ambrosia Wiki
             </p>
             <nav>
               <ul className="flex space-x-4">
